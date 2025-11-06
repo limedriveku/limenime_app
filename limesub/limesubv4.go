@@ -1503,7 +1503,7 @@ func main() {
 
 	default:
 		safeDialogMessage("Limesub v3 - Format Tidak Didukung",
-			"Format file ini belum didukung.\n\nGunakan file dengan ekstensi .srt, .vtt, .ttml, .xml, .json, atau .ass.",
+			"Format file ini tidak didukung.\n\nGunakan file dengan ekstensi .srt, .vtt, .ttml, .xml, .json, atau .ass.",
 			true)
 		return
 	}
@@ -1533,3 +1533,4 @@ func generateOutputName(input string) string {
 	}
 	return out
 }
+
